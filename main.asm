@@ -12,7 +12,7 @@ buffer resb 100
 
 section .text
 
-_start
+_start:
 
     mov eax, msg
     call print_string
